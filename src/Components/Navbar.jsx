@@ -56,19 +56,19 @@ const Navbar = () => {
                 </div>
                 <div className='flex flex-col gap-4'>
 
-                <NavLink onClick={()=> setVisible(false)} to="/" className='flex items-center flex-col  gap-3 px-3 py-2'>
+                <NavLink onClick={()=> setVisible(false)} to="/" className=' flex items-center flex-col  gap-3 px-3 py-2'>
                    <p>Home</p>
                    <hr className='w-1/2  border-none h-[1.5px] bg-gray-700 hidden' />
                 </NavLink>
-                <NavLink onClick={()=> setVisible(false)} to="/collection" className='flex items-center flex-col  gap-3 px-3 py-2'>
+                <NavLink onClick={()=> setVisible(false)} to="/collection" className='  flex items-center flex-col  gap-3 px-3 py-2'>
                    <p>Collection</p>
                    <hr className='w-1/2  border-none h-[1.5px] bg-gray-700 hidden' />
                 </NavLink>
-                <NavLink onClick={()=> setVisible(false)}  to="/about" className='flex items-center flex-col  gap-3 px-3 py-2'>
+                <NavLink onClick={()=> setVisible(false)}  to="/about" className=' flex items-center flex-col  gap-3 px-3 py-2'>
                    <p>About</p>
                    <hr className='w-1/2  border-none h-[1.5px] bg-gray-700 hidden' />
                 </NavLink>
-                <NavLink onClick={()=> setVisible(false)} to="/contact" className='flex items-center flex-col  gap-3 px-3 py-2'>
+                <NavLink onClick={()=> setVisible(false)} to="/contact" className='  flex items-center flex-col  gap-3 px-3 py-2'>
                    <p>Contact</p>
                    <hr className='w-1/2  border-none h-[1.5px] bg-gray-700 hidden' />
                 </NavLink>
