@@ -11,11 +11,17 @@ import Orders from './pages/Orders'
 import PlaceOrder from './pages/PlaceOrder'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
+import Search from './Components/Search'
+import { ToastContainer, toast } from 'react-toastify';
+
 
 const App = () => {
   return (
     <div className='px-4  sm:px-[5vw] md:px-[7vw] lg:px-[8vw]  '>
+       {/* toast notification */}
+      <ToastContainer position="top-right" autoClose={5000} /> 
       <Navbar/>
+      <Search/>
          <Routes>
             <Route path='/' element={<Home/>} />
             <Route path='/collection' element={<Collection/>} />
